@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BLOCKNATOR.COM — Modular Token Infrastructure</title>
-  <meta name="description" content="BLOCKNATOR: infraestructura Web3 que almacena, organiza y presenta proyectos de tokens de múltiples blockchains. One ecosystem. Multiple projects." />
+  <title data-i18n="meta.title">BLOCKNATOR.COM — Modular Token Infrastructure</title>
+  <meta name="description"
+        data-i18n-attr="content:meta.description"
+        content="BLOCKNATOR: Web3 infrastructure that stores, organizes and presents token projects across multiple blockchains. One ecosystem. Multiple projects." />
   <meta name="theme-color" content="#0a0a0f" />
   <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="css/style.css" />
@@ -14,19 +16,88 @@
   <!-- ================= HEADER ================= -->
   <header class="site-header">
     <nav class="nav container">
-      <a href="#home" class="brand" aria-label="BLOCKNATOR inicio">
+      <a href="#home" class="brand"
+         aria-label="BLOCKNATOR"
+         data-i18n-attr="aria-label:aria.brand">
         <span class="brand-mark">▣</span>
         <span class="brand-text">BLOCKNATOR</span>
       </a>
-      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-      <ul class="nav-links" id="navLinks">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#gallery">Gallery</a></li>
-        <li><a href="#directory">Directory</a></li>
-        <li><a href="#about">About</a></li>
-      </ul>
+
+      <div class="nav-right">
+        <!-- LANGUAGE SELECTOR -->
+        <div class="lang-selector" id="langSelector">
+          <button class="lang-btn" id="langBtn" type="button"
+                  aria-haspopup="true" aria-expanded="false"
+                  aria-label="Language"
+                  data-i18n-attr="aria-label:lang.selector">
+            <span class="lang-icon">🌐</span>
+            <span class="lang-current" id="langCurrent">EN</span>
+          </button>
+          <ul class="lang-menu" id="langMenu" role="menu" hidden>
+            <li role="none">
+              <button class="lang-option" type="button" role="menuitemradio"
+                      data-lang="en" aria-checked="true">
+                <span class="lang-flag">🇬🇧</span>
+                <span class="lang-name" data-i18n="lang.english">English</span>
+                <span class="lang-code">EN</span>
+                <span class="lang-check">✓</span>
+              </button>
+            </li>
+            <li role="none">
+              <button class="lang-option" type="button" role="menuitemradio"
+                      data-lang="es" aria-checked="false">
+                <span class="lang-flag">🇪🇸</span>
+                <span class="lang-name" data-i18n="lang.spanish">Español</span>
+                <span class="lang-code">ES</span>
+                <span class="lang-check">✓</span>
+              </button>
+            </li>
+            <li role="none">
+              <button class="lang-option" type="button" role="menuitemradio"
+                      data-lang="zh" aria-checked="false">
+                <span class="lang-flag">🇨🇳</span>
+                <span class="lang-name" data-i18n="lang.chinese">简体中文</span>
+                <span class="lang-code">ZH</span>
+                <span class="lang-check">✓</span>
+              </button>
+            </li>
+            <li role="none">
+              <button class="lang-option" type="button" role="menuitemradio"
+                      data-lang="pt" aria-checked="false">
+                <span class="lang-flag">🇧🇷</span>
+                <span class="lang-name" data-i18n="lang.portuguese">Português (Brasil)</span>
+                <span class="lang-code">PT</span>
+                <span class="lang-check">✓</span>
+              </button>
+            </li>
+            <li role="none">
+              <button class="lang-option" type="button" role="menuitemradio"
+                      data-lang="th" aria-checked="false">
+                <span class="lang-flag">🇹🇭</span>
+                <span class="lang-name" data-i18n="lang.thai">ไทย</span>
+                <span class="lang-code">TH</span>
+                <span class="lang-check">✓</span>
+              </button>
+            </li>
+          </ul>
+        </div>
+
+        <!-- NAV LINKS -->
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home" data-i18n="nav.home">Home</a></li>
+          <li><a href="#gallery" data-i18n="nav.gallery">Gallery</a></li>
+          <li><a href="#directory" data-i18n="nav.directory">Directory</a></li>
+          <li><a href="#about" data-i18n="nav.about">About</a></li>
+        </ul>
+
+        <!-- MOBILE TOGGLE -->
+        <button class="nav-toggle" id="navToggle" type="button"
+                aria-label="Open menu"
+                aria-expanded="false"
+                data-i18n-attr="aria-label:aria.openMenu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
     </nav>
   </header>
 
@@ -35,22 +106,22 @@
     <!-- ================= HOME / HERO ================= -->
     <section id="home" class="hero">
       <div class="container hero-inner">
-        <p class="hero-eyebrow">ONE ECOSYSTEM · MULTIPLE PROJECTS</p>
+        <p class="hero-eyebrow" data-i18n="hero.eyebrow">ONE ECOSYSTEM · MULTIPLE PROJECTS</p>
         <h1 class="hero-title">BLOCKNATOR.COM</h1>
-        <p class="hero-subtitle">MODULAR TOKEN INFRASTRUCTURE</p>
-        <p class="hero-desc">
-          Infraestructura Web3 que almacena, organiza, documenta y presenta
-          proyectos de tokens de múltiples blockchains. Cada proyecto opera
-          de forma independiente en su propia red.
+        <p class="hero-subtitle" data-i18n="hero.subtitle">MODULAR TOKEN INFRASTRUCTURE</p>
+        <p class="hero-desc" data-i18n="hero.description">
+          Web3 infrastructure that stores, organizes, documents and presents
+          token projects across multiple blockchains. Each project operates
+          independently on its own network.
         </p>
         <div class="hero-actions">
-          <a href="#gallery" class="btn btn-primary">Explorar Gallery</a>
-          <a href="#directory" class="btn btn-ghost">Ver Directory</a>
+          <a href="#gallery" class="btn btn-primary" data-i18n="hero.btnGallery">Explore Gallery</a>
+          <a href="#directory" class="btn btn-ghost" data-i18n="hero.btnDirectory">View Directory</a>
         </div>
         <ul class="hero-stats">
-          <li><strong id="statProjects">0</strong><span>Proyectos</span></li>
-          <li><strong id="statChains">0</strong><span>Blockchains</span></li>
-          <li><strong>100%</strong><span>Client-Side</span></li>
+          <li><strong id="statProjects">0</strong><span data-i18n="hero.statProjects">Projects</span></li>
+          <li><strong id="statChains">0</strong><span data-i18n="hero.statChains">Blockchains</span></li>
+          <li><strong>100%</strong><span data-i18n="hero.statClientSide">Client-Side</span></li>
         </ul>
       </div>
       <div class="grid-bg" aria-hidden="true"></div>
@@ -60,11 +131,11 @@
     <section id="gallery" class="section">
       <div class="container">
         <header class="section-head">
-          <h2>Gallery</h2>
-          <p>Galería visual de los proyectos del ecosistema BLOCKNATOR.</p>
+          <h2 data-i18n="gallery.title">Gallery</h2>
+          <p data-i18n="gallery.description">Visual gallery of the projects in the BLOCKNATOR ecosystem.</p>
         </header>
         <div id="galleryGrid" class="gallery-grid" aria-live="polite"></div>
-        <p id="galleryEmpty" class="empty-msg" hidden>No hay proyectos disponibles.</p>
+        <p id="galleryEmpty" class="empty-msg" data-i18n="gallery.empty" hidden>No projects available.</p>
       </div>
     </section>
 
@@ -72,33 +143,40 @@
     <section id="directory" class="section section-alt">
       <div class="container">
         <header class="section-head">
-          <h2>Directory</h2>
-          <p>Directorio central de tokens. Busca por nombre o ticker, filtra por blockchain.</p>
+          <h2 data-i18n="directory.title">Directory</h2>
+          <p data-i18n="directory.description">Central token directory. Search by name or ticker, filter by blockchain.</p>
         </header>
 
         <div class="dir-controls">
           <div class="dir-search">
-            <input type="search" id="searchInput" placeholder="Buscar por nombre o ticker…" autocomplete="off" aria-label="Buscar token" />
+            <input type="search" id="searchInput"
+                   placeholder="Search by name or ticker…"
+                   autocomplete="off"
+                   aria-label="Search token"
+                   data-i18n-attr="placeholder:directory.searchPlaceholder;aria-label:aria.searchToken" />
           </div>
-          <div class="dir-filters" id="chainFilters" role="group" aria-label="Filtrar por blockchain"></div>
+          <div class="dir-filters" id="chainFilters"
+               role="group"
+               aria-label="Filter by blockchain"
+               data-i18n-attr="aria-label:aria.filterBlockchain"></div>
         </div>
 
         <div class="table-wrap">
           <table class="dir-table">
             <thead>
               <tr>
-                <th>Token</th>
-                <th>Ticker</th>
-                <th>Blockchain</th>
-                <th>Suministro</th>
-                <th>Contrato</th>
-                <th></th>
+                <th data-i18n="directory.colToken">Token</th>
+                <th data-i18n="directory.colTicker">Ticker</th>
+                <th data-i18n="directory.colBlockchain">Blockchain</th>
+                <th data-i18n="directory.colSupply">Supply</th>
+                <th data-i18n="directory.colContract">Contract</th>
+                <th data-i18n="directory.colAction">Action</th>
               </tr>
             </thead>
             <tbody id="dirTableBody"></tbody>
           </table>
         </div>
-        <p id="dirEmpty" class="empty-msg" hidden>No se encontraron tokens con esos criterios.</p>
+        <p id="dirEmpty" class="empty-msg" data-i18n="directory.empty" hidden>No tokens found with those criteria.</p>
       </div>
     </section>
 
@@ -106,53 +184,58 @@
     <section id="about" class="section">
       <div class="container about-grid">
         <div>
-          <h2>About BLOCKNATOR</h2>
-          <p>
-            BLOCKNATOR es una infraestructura Web3 modular que <strong>almacena,
-            organiza y presenta</strong> proyectos de tokens en múltiples blockchains.
-            Todos los proyectos pertenecen al ecosistema BLOCKNATOR pero funcionan
-            de manera independiente en sus respectivas redes.
+          <h2 data-i18n="about.title">About BLOCKNATOR</h2>
+          <p data-i18n-html="about.p1">
+            BLOCKNATOR is a modular Web3 infrastructure that
+            <strong>stores, organizes and presents</strong> token projects across
+            multiple blockchains. All projects belong to the BLOCKNATOR ecosystem
+            but operate independently on their respective networks.
           </p>
-          <h3>Qué hace BLOCKNATOR</h3>
+          <h3 data-i18n="about.hasTitle">What BLOCKNATOR does</h3>
           <ul class="check-list">
-            <li>Almacena información y archivos de los proyectos.</li>
-            <li>Mantiene un directorio central de tokens.</li>
-            <li>Presenta los proyectos mediante una galería.</li>
-            <li>Proporciona acceso a las páginas Web3 oficiales.</li>
-            <li>Organiza información y enlaces oficiales.</li>
-          </ul>
-          <h3>Qué NO hace BLOCKNATOR</h3>
-          <ul class="cross-list">
-            <li>No crea tokens.</li>
-            <li>No crea páginas web para los proyectos.</li>
-            <li>No despliega contratos inteligentes.</li>
-            <li>No administra ni controla los tokens.</li>
+            <li data-i18n="about.hasList1">Stores information and files for the projects.</li>
+            <li data-i18n="about.hasList2">Maintains a central token directory.</li>
+            <li data-i18n="about.hasList3">Presents the projects through a gallery.</li>
+            <li data-i18n="about.hasList4">Provides access to the official Web3 pages.</li>
+            <li data-i18n="about.hasList5">Organizes information and official links.</li>
           </ul>
         </div>
         <div>
-          <h3>Arquitectura</h3>
-          <p>
-            Arquitectura ultraligera <strong>100% client-side</strong>:
-            cero backend, cero bases de datos, cero frameworks pesados.
-            El servidor estático solo entrega archivos; tu navegador los
-            interpreta y ejecuta usando HTML5, CSS3, JavaScript nativo y JSON.
+          <h3 data-i18n="about.archTitle">Architecture</h3>
+          <p data-i18n-html="about.archP1">
+            Ultralight <strong>100% client-side</strong> architecture:
+            zero backend, zero databases, zero heavy frameworks.
+            The static server only delivers files; your browser interprets and
+            runs them using HTML5, CSS3, native JavaScript and JSON.
           </p>
           <div class="principles">
             <div class="principle">
               <span class="p-ico">⚙</span>
-              <div><strong>Vanilla JS</strong><p>Sin React, Vue, Angular ni Node.js.</p></div>
+              <div>
+                <strong data-i18n="about.principleVanillaTitle">Vanilla JS</strong>
+                <p data-i18n="about.principleVanillaDesc">No React, Vue, Angular or Node.js.</p>
+              </div>
             </div>
             <div class="principle">
               <span class="p-ico">⚡</span>
-              <div><strong>Ultraligero</strong><p>Sin dependencias externas ni librerías.</p></div>
+              <div>
+                <strong data-i18n="about.principleLightTitle">Ultralight</strong>
+                <p data-i18n="about.principleLightDesc">No external dependencies or libraries.</p>
+              </div>
             </div>
             <div class="principle">
               <span class="p-ico">🔒</span>
-              <div><strong>Sin cuentas</strong><p>Sin registro, sin claves privadas, sin cookies.</p></div>
+              <div>
+                <strong data-i18n="about.principleNoAuthTitle">No accounts</strong>
+                <p data-i18n="about.principleNoAuthDesc">No sign-up, no private keys, no cookies.</p>
+              </div>
             </div>
             <div class="principle">
               <span class="p-ico">🌐</span>
-              <div><strong>Multi-chain</strong><p>Proyectos independientes en sus propias blockchains.</p></div>
+              <div>
+                <strong data-i18n="about.principleMultiTitle">Multi-chain</strong>
+                <p data-i18n="about.principleMultiDesc">Independent projects on their own blockchains.</p>
+              </div>
             </div>
           </div>
         </div>
@@ -165,7 +248,9 @@
   <div class="modal" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
     <div class="modal-backdrop" data-close></div>
     <div class="modal-card">
-      <button class="modal-close" id="modalClose" aria-label="Cerrar">✕</button>
+      <button class="modal-close" id="modalClose" type="button"
+              aria-label="Close"
+              data-i18n-attr="aria-label:aria.close">✕</button>
       <div id="modalContent"></div>
     </div>
   </div>
@@ -175,11 +260,11 @@
     <div class="container footer-inner">
       <div>
         <p class="footer-brand">BLOCKNATOR.COM</p>
-        <p class="footer-tag">MODULAR TOKEN INFRASTRUCTURE</p>
+        <p class="footer-tag" data-i18n="footer.tagline">MODULAR TOKEN INFRASTRUCTURE</p>
       </div>
       <p class="footer-note">
-        One ecosystem. Multiple projects.<br />
-        <span>© <span id="year"></span> BLOCKNATOR. Proyectos demo con fines ilustrativos.</span>
+        <span data-i18n="footer.note">One ecosystem. Multiple projects.</span><br />
+        <span data-i18n="footer.copyright">© {year} BLOCKNATOR. Demo projects for illustrative purposes.</span>
       </p>
     </div>
   </footer>
