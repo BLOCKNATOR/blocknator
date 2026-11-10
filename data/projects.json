@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "site": "BLOCKNATOR.COM",
+    "tagline": "MODULAR TOKEN INFRASTRUCTURE",
+    "version": "1.0.0",
+    "disclaimer": "Todos los proyectos, tokens, contratos y enlaces son DEMO con fines ilustrativos. No representan activos reales."
+  },
+  "projects": [
+    {
+      "id": "demo-nexus",
+      "name": "Demo Nexus",
+      "symbol": "DNXS",
+      "logo": "",
+      "blockchain": "Ethereum",
+      "totalSupply": "100000000",
+      "decimals": 18,
+      "contract": "0xDEMO000000000000000000000000000000000001",
+      "description": "[DEMO] Proyecto de demostración del ecosistema BLOCKNATOR. Representa una infraestructura modular ficticia para pruebas de directorio.",
+      "subdomain": "demo-nexus.blocknator.com",
+      "metadata": "IPFS-DEMO-QmNexus000000000000000000000000000000",
+      "links": {
+        "website": "https://demo-nexus.blocknator.com",
+        "explorer": "https://etherscan.io/token/0xDEMO000000000000000000000000000000000001",
+        "dex": "https://app.uniswap.org/",
+        "wallet": "https://metamask.io/",
+        "twitter": "https://twitter.com/",
+        "telegram": "https://t.me/",
+        "discord": "https://discord.com/"
+      }
+    },
+    {
+      "id": "demo-orbit",
+      "name": "Demo Orbit",
+      "symbol": "DORB",
+      "logo": "",
+      "blockchain": "BNB Chain",
+      "totalSupply": "50000000",
+      "decimals": 18,
+      "contract": "0xDEMO000000000000000000000000000000000002",
+      "description": "[DEMO] Proyecto de demostración en BNB Chain. Token ficticio para pruebas de filtros y galería.",
+      "subdomain": "demo-orbit.blocknator.com",
+      "metadata": "IPFS-DEMO-QmOrbit0000000000000000000000000000000",
+      "links": {
+        "website": "https://demo-orbit.blocknator.com",
+        "explorer": "https://bscscan.com/token/0xDEMO000000000000000000000000000000000002",
+        "dex": "https://pancakeswap.finance/",
+        "wallet": "https://trustwallet.com/",
+        "twitter": "https://twitter.com/",
+        "telegram": "https://t.me/"
+      }
+    },
+    {
+      "id": "demo-pulse",
+      "name": "Demo Pulse",
+      "symbol": "DPLS",
+      "logo": "",
+      "blockchain": "Polygon",
+      "totalSupply": "250000000",
+      "decimals": 18,
+      "contract": "0xDEMO000000000000000000000000000000000003",
+      "description": "[DEMO] Proyecto de demostración en Polygon. Datos ficticios para validar la arquitectura client-side.",
+      "subdomain": "demo-pulse.blocknator.com",
+      "metadata": "IPFS-DEMO-QmPulse0000000000000000000000000000000",
+      "links": {
+        "website": "https://demo-pulse.blocknator.com",
+        "explorer": "https://polygonscan.com/token/0xDEMO000000000000000000000000000000000003",
+        "dex": "https://quickswap.exchange/",
+        "wallet": "https://metamask.io/",
+        "twitter": "https://twitter.com/",
+        "discord": "https://discord.com/"
+      }
+    },
+    {
+      "id": "demo-vertex",
+      "name": "Demo Vertex",
+      "symbol": "DVTX",
+      "logo": "",
+      "blockchain": "Arbitrum",
+      "totalSupply": "75000000",
+      "decimals": 18,
+      "contract": "0xDEMO000000000000000000000000000000000004",
+      "description": "[DEMO] Proyecto de demostración en Arbitrum. Token ficticio de ejemplo para el directorio central.",
+      "subdomain": "demo-vertex.blocknator.com",
+      "metadata": "IPFS-DEMO-QmVertex000000000000000000000000000000",
+      "links": {
+        "website": "https://demo-vertex.blocknator.com",
+        "explorer": "https://arbiscan.io/token/0xDEMO000000000000000000000000000000000004",
+        "dex": "https://app.uniswap.org/",
+        "wallet": "https://rabby.io/",
+        "twitter": "https://twitter.com/",
+        "telegram": "https://t.me/"
+      }
+    },
+    {
+      "id": "demo-cipher",
+      "name": "Demo Cipher",
+      "symbol": "DCIP",
+      "logo": "",
+      "blockchain": "Base",
+      "totalSupply": "1000000000",
+      "decimals": 9,
+      "contract": "0xDEMO000000000000000000000000000000000005",
+      "description": "[DEMO] Proyecto de demostración en Base. Datos de ejemplo para pruebas de la galería interactiva.",
+      "subdomain": "demo-cipher.blocknator.com",
+      "metadata": "IPFS-DEMO-QmCipher000000000000000000000000000000",
+      "links": {
+        "website": "https://demo-cipher.blocknator.com",
+        "explorer": "https://basescan.org/token/0xDEMO000000000000000000000000000000000005",
+        "dex": "https://aerodrome.finance/",
+        "wallet": "https://www.coinbase.com/wallet",
+        "twitter": "https://twitter.com/",
+        "discord": "https://discord.com/"
+      }
+    },
+    {
+      "id": "demo-lumen",
+      "name": "Demo Lumen",
+      "symbol": "DLMN",
+      "logo": "",
+      "blockchain": "Solana",
+      "totalSupply": "10000000",
+      "decimals": 6,
+      "contract": "DEMO1111111111111111111111111111111111111111",
+      "description": "[DEMO] Proyecto de demostración en Solana. Token ficticio para validar la presentación multi-chain.",
+      "subdomain": "demo-lumen.blocknator.com",
+      "metadata": "IPFS-DEMO-QmLumen0000000000000000000000000000000",
+      "links": {
+        "website": "https://demo-lumen.blocknator.com",
+        "explorer": "https://solscan.io/",
+        "dex": "https://jup.ag/",
+        "wallet": "https://phantom.app/",
+        "twitter": "https://twitter.com/",
+        "telegram": "https://t.me/"
+      }
+    }
+  ]
+}
