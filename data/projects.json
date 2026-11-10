@@ -3,7 +3,7 @@
     "site": "BLOCKNATOR.COM",
     "tagline": "MODULAR TOKEN INFRASTRUCTURE",
     "version": "1.0.0",
-    "disclaimer": "Todos los proyectos, tokens, contratos y enlaces son DEMO con fines ilustrativos. No representan activos reales."
+    "disclaimer": "All projects, tokens, contracts and links are DEMO for illustrative purposes. They do not represent real assets."
   },
   "projects": [
     {
@@ -15,7 +15,14 @@
       "totalSupply": "100000000",
       "decimals": 18,
       "contract": "0xDEMO000000000000000000000000000000000001",
-      "description": "[DEMO] Proyecto de demostración del ecosistema BLOCKNATOR. Representa una infraestructura modular ficticia para pruebas de directorio.",
+      "description": "[DEMO] Demonstration project of the BLOCKNATOR ecosystem. Represents a fictional modular infrastructure for directory testing.",
+      "descriptionI18n": {
+        "en": "[DEMO] Demonstration project of the BLOCKNATOR ecosystem. Represents a fictional modular infrastructure for directory testing.",
+        "es": "[DEMO] Proyecto de demostración del ecosistema BLOCKNATOR. Representa una infraestructura modular ficticia para pruebas de directorio.",
+        "zh": "[演示] BLOCKNATOR 生态系统的演示项目。代表用于目录测试的虚构模块化基础设施。",
+        "pt": "[DEMO] Projeto de demonstração do ecossistema BLOCKNATOR. Representa uma infraestrutura modular fictícia para testes de diretório.",
+        "th": "[สาธิต] โครงการสาธิตของระบบนิเวศ BLOCKNATOR แสดงถึงโครงสร้างพื้นฐานแบบโมดูลาร์สมมติสำหรับการทดสอบไดเรกทอรี"
+      },
       "subdomain": "demo-nexus.blocknator.com",
       "metadata": "IPFS-DEMO-QmNexus000000000000000000000000000000",
       "links": {
@@ -37,7 +44,14 @@
       "totalSupply": "50000000",
       "decimals": 18,
       "contract": "0xDEMO000000000000000000000000000000000002",
-      "description": "[DEMO] Proyecto de demostración en BNB Chain. Token ficticio para pruebas de filtros y galería.",
+      "description": "[DEMO] Demonstration project on BNB Chain. Fictional token for testing filters and gallery.",
+      "descriptionI18n": {
+        "en": "[DEMO] Demonstration project on BNB Chain. Fictional token for testing filters and gallery.",
+        "es": "[DEMO] Proyecto de demostración en BNB Chain. Token ficticio para pruebas de filtros y galería.",
+        "zh": "[演示] BNB Chain 上的演示项目。用于测试筛选器和图库的虚构代币。",
+        "pt": "[DEMO] Projeto de demonstração na BNB Chain. Token fictício para testar filtros e galeria.",
+        "th": "[สาธิต] โครงการสาธิตบน BNB Chain โทเค็นสมมติสำหรับทดสอบตัวกรองและแกลเลอรี"
+      },
       "subdomain": "demo-orbit.blocknator.com",
       "metadata": "IPFS-DEMO-QmOrbit0000000000000000000000000000000",
       "links": {
@@ -58,7 +72,14 @@
       "totalSupply": "250000000",
       "decimals": 18,
       "contract": "0xDEMO000000000000000000000000000000000003",
-      "description": "[DEMO] Proyecto de demostración en Polygon. Datos ficticios para validar la arquitectura client-side.",
+      "description": "[DEMO] Demonstration project on Polygon. Fictional data to validate the client-side architecture.",
+      "descriptionI18n": {
+        "en": "[DEMO] Demonstration project on Polygon. Fictional data to validate the client-side architecture.",
+        "es": "[DEMO] Proyecto de demostración en Polygon. Datos ficticios para validar la arquitectura client-side.",
+        "zh": "[演示] Polygon 上的演示项目。用于验证客户端架构的虚构数据。",
+        "pt": "[DEMO] Projeto de demonstração na Polygon. Dados fictícios para validar a arquitetura client-side.",
+        "th": "[สาธิต] โครงการสาธิตบน Polygon ข้อมูลสมมติเพื่อตรวจสอบสถาปัตยกรรมฝั่งไคลเอนต์"
+      },
       "subdomain": "demo-pulse.blocknator.com",
       "metadata": "IPFS-DEMO-QmPulse0000000000000000000000000000000",
       "links": {
@@ -79,7 +100,14 @@
       "totalSupply": "75000000",
       "decimals": 18,
       "contract": "0xDEMO000000000000000000000000000000000004",
-      "description": "[DEMO] Proyecto de demostración en Arbitrum. Token ficticio de ejemplo para el directorio central.",
+      "description": "[DEMO] Demonstration project on Arbitrum. Fictional example token for the central directory.",
+      "descriptionI18n": {
+        "en": "[DEMO] Demonstration project on Arbitrum. Fictional example token for the central directory.",
+        "es": "[DEMO] Proyecto de demostración en Arbitrum. Token ficticio de ejemplo para el directorio central.",
+        "zh": "[演示] Arbitrum 上的演示项目。用于中央目录的虚构示例代币。",
+        "pt": "[DEMO] Projeto de demonstração na Arbitrum. Token fictício de exemplo para o diretório central.",
+        "th": "[สาธิต] โครงการสาธิตบน Arbitrum โทเค็นตัวอย่างสมมติสำหรับไดเรกทอรีกลาง"
+      },
       "subdomain": "demo-vertex.blocknator.com",
       "metadata": "IPFS-DEMO-QmVertex000000000000000000000000000000",
       "links": {
@@ -100,7 +128,14 @@
       "totalSupply": "1000000000",
       "decimals": 9,
       "contract": "0xDEMO000000000000000000000000000000000005",
-      "description": "[DEMO] Proyecto de demostración en Base. Datos de ejemplo para pruebas de la galería interactiva.",
+      "description": "[DEMO] Demonstration project on Base. Sample data for testing the interactive gallery.",
+      "descriptionI18n": {
+        "en": "[DEMO] Demonstration project on Base. Sample data for testing the interactive gallery.",
+        "es": "[DEMO] Proyecto de demostración en Base. Datos de ejemplo para pruebas de la galería interactiva.",
+        "zh": "[演示] Base 上的演示项目。用于测试交互式图库的示例数据。",
+        "pt": "[DEMO] Projeto de demonstração na Base. Dados de exemplo para testar a galeria interativa.",
+        "th": "[สาธิต] โครงการสาธิตบน Base ข้อมูลตัวอย่างสำหรับทดสอบแกลเลอรีแบบโต้ตอบ"
+      },
       "subdomain": "demo-cipher.blocknator.com",
       "metadata": "IPFS-DEMO-QmCipher000000000000000000000000000000",
       "links": {
@@ -121,7 +156,14 @@
       "totalSupply": "10000000",
       "decimals": 6,
       "contract": "DEMO1111111111111111111111111111111111111111",
-      "description": "[DEMO] Proyecto de demostración en Solana. Token ficticio para validar la presentación multi-chain.",
+      "description": "[DEMO] Demonstration project on Solana. Fictional token to validate multi-chain presentation.",
+      "descriptionI18n": {
+        "en": "[DEMO] Demonstration project on Solana. Fictional token to validate multi-chain presentation.",
+        "es": "[DEMO] Proyecto de demostración en Solana. Token ficticio para validar la presentación multi-chain.",
+        "zh": "[演示] Solana 上的演示项目。用于验证多链展示的虚构代币。",
+        "pt": "[DEMO] Projeto de demonstração na Solana. Token fictício para validar a apresentação multi-chain.",
+        "th": "[สาธิต] โครงการสาธิตบน Solana โทเค็นสมมติเพื่อตรวจสอบการนำเสนอแบบหลายเชน"
+      },
       "subdomain": "demo-lumen.blocknator.com",
       "metadata": "IPFS-DEMO-QmLumen0000000000000000000000000000000",
       "links": {
